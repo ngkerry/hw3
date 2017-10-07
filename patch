@@ -1,0 +1,22 @@
+colorMode(RGB);
+stroke(250,35,209);
+fill (30, 100, 100);
+rect (-1, -1, 400, 400);
+
+strokeWeight(4);
+var a = 10
+var b = 10
+
+while (a <= 500)
+{
+line(0, a, 500, a);
+var a = a + 25
+}
+
+var b = 10
+while (b <= 500)
+{
+line(b, 0, b, 500);
+var b = b + 25
+}
+
